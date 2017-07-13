@@ -6,7 +6,7 @@ import copy
 while(1):
     
     print ("Leyendo Quintupla.")
-    os.system("reader.py afd data.txt final.txt")
+    os.system("reader.py")
     print ("transformando a AFND a AFD.")
     os.system("execute.py afd data.txt final.txt")
     print ("Desea minimizar? Presione S para afirmar.")
